@@ -1,8 +1,11 @@
 # PHP-Reverse-Shell-Script
 
-Replace with the IP address of the attacker's machine
-Replace with the port you want to use
+Reemplaza con la dirección IP de la máquina del atacante 
 
-Save the script to a .php file on the target system.
-Set up a listener on your attacker machine using a tool like netcat: nc -lvnp 4444.
-Access the .php file from a web browser on the target system to trigger the reverse shell.
+Reemplaza con el puerto que quieres usar
+
+Guarda el script en un archivo .php en el sistema objetivo. 
+
+Configura la escucha en tu máquina atacante usando una herramienta como netcat: nc -lvnp 4444. 
+
+Accede al archivo .php desde un navegador web en el sistema objetivo para activar el reverse shell.
